@@ -19,7 +19,7 @@ const BookCheckoutPage = () => {
 
   useEffect(() => {
     const fetchBook = async () => {
-      const baseUrl: string = `http://localhost:8080/api/books/${bookId}`;
+      const baseUrl: string = `http://localhost:8080/books/${bookId}`;
 
       const response = await fetch(baseUrl);
 
